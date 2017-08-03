@@ -1466,29 +1466,29 @@ function animatecounters(){
 /*==============================================================*/
     //Counter Number - START CODE
     /*==============================================================*/
-    jQuery({ ValuerHbcO: 0 }).delay(0).animate({ ValuerHbcO: 312 },
+    jQuery({ ValuerHbcO: 0 }).delay(0).animate({ ValuerHbcO: 930 },
     {
         duration: 2000,
         easing: "swing",
         step: function () {
 
-            $("#anim-number-pizza").text(Math.ceil(this.ValuerHbcO));
+            $("#anim-number-pizza").text(Math.ceil(this.ValuerHbcO)+"+");
         }
     });
-    jQuery({ ValuerHbcO: 0 }).delay(0).animate({ ValuerHbcO: 980 },
+    jQuery({ ValuerHbcO: 0 }).delay(0).animate({ ValuerHbcO: 55 },
     {
         duration: 2000,
         easing: "swing",
         step: function () {
-            $("#anim-number-client").text(Math.ceil(this.ValuerHbcO));
+            $("#anim-number-client").text(Math.ceil(this.ValuerHbcO)+"+");
         }
     });
-    jQuery({ ValuerHbcO: 0 }).delay(0).animate({ ValuerHbcO: 810 },
+    jQuery({ ValuerHbcO: 0 }).delay(0).animate({ ValuerHbcO: 20 },
     {
         duration: 2000,
         easing: "swing",
         step: function () {
-            $("#anim-number-projects").text(Math.ceil(this.ValuerHbcO));
+            $("#anim-number-projects").text(Math.ceil(this.ValuerHbcO)+"+");
         }
     });
     jQuery({ ValuerHbcO: 0 }).delay(0).animate({ ValuerHbcO: 600 },
